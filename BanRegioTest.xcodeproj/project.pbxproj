@@ -13,6 +13,14 @@
 		BFB8FD5A27D7F2320037D121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB8FD5827D7F2320037D121 /* Main.storyboard */; };
 		BFB8FD5C27D7F2340037D121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB8FD5B27D7F2340037D121 /* Assets.xcassets */; };
 		BFB8FD5F27D7F2340037D121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB8FD5D27D7F2340037D121 /* LaunchScreen.storyboard */; };
+		BFB8FD6827D7F36F0037D121 /* ClientDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8FD6727D7F36F0037D121 /* ClientDetailRepository.swift */; };
+		BFB8FD6B27D7F38D0037D121 /* ClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8FD6A27D7F38D0037D121 /* ClientModel.swift */; };
+		BFB8FD6F27D7FB1C0037D121 /* AccountDebitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8FD6D27D7FB1C0037D121 /* AccountDebitTableViewCell.swift */; };
+		BFB8FD7027D7FB1C0037D121 /* AccountDebitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB8FD6E27D7FB1C0037D121 /* AccountDebitTableViewCell.xib */; };
+		BFB8FD7327D7FF700037D121 /* PayAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8FD7127D7FF700037D121 /* PayAccountsViewController.swift */; };
+		BFB8FD7427D7FF700037D121 /* PayAccountsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB8FD7227D7FF700037D121 /* PayAccountsViewController.xib */; };
+		BFB8FD7727D802FB0037D121 /* DetailToPayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8FD7527D802FB0037D121 /* DetailToPayTableViewCell.swift */; };
+		BFB8FD7827D802FB0037D121 /* DetailToPayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB8FD7627D802FB0037D121 /* DetailToPayTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		BFB8FD5B27D7F2340037D121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB8FD5E27D7F2340037D121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFB8FD6027D7F2340037D121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB8FD6727D7F36F0037D121 /* ClientDetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDetailRepository.swift; sourceTree = "<group>"; };
+		BFB8FD6A27D7F38D0037D121 /* ClientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientModel.swift; sourceTree = "<group>"; };
+		BFB8FD6D27D7FB1C0037D121 /* AccountDebitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDebitTableViewCell.swift; sourceTree = "<group>"; };
+		BFB8FD6E27D7FB1C0037D121 /* AccountDebitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountDebitTableViewCell.xib; sourceTree = "<group>"; };
+		BFB8FD7127D7FF700037D121 /* PayAccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayAccountsViewController.swift; sourceTree = "<group>"; };
+		BFB8FD7227D7FF700037D121 /* PayAccountsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayAccountsViewController.xib; sourceTree = "<group>"; };
+		BFB8FD7527D802FB0037D121 /* DetailToPayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailToPayTableViewCell.swift; sourceTree = "<group>"; };
+		BFB8FD7627D802FB0037D121 /* DetailToPayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailToPayTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,9 @@
 		BFB8FD5127D7F2320037D121 /* BanRegioTest */ = {
 			isa = PBXGroup;
 			children = (
+				BFB8FD6C27D7FAF30037D121 /* Cells */,
+				BFB8FD6927D7F3830037D121 /* Models */,
+				BFB8FD6627D7F3570037D121 /* Repository */,
 				BFB8FD5227D7F2320037D121 /* AppDelegate.swift */,
 				BFB8FD5427D7F2320037D121 /* SceneDelegate.swift */,
 				BFB8FD5627D7F2320037D121 /* ViewController.swift */,
@@ -63,8 +82,37 @@
 				BFB8FD5B27D7F2340037D121 /* Assets.xcassets */,
 				BFB8FD5D27D7F2340037D121 /* LaunchScreen.storyboard */,
 				BFB8FD6027D7F2340037D121 /* Info.plist */,
+				BFB8FD7127D7FF700037D121 /* PayAccountsViewController.swift */,
+				BFB8FD7227D7FF700037D121 /* PayAccountsViewController.xib */,
 			);
 			path = BanRegioTest;
+			sourceTree = "<group>";
+		};
+		BFB8FD6627D7F3570037D121 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8FD6727D7F36F0037D121 /* ClientDetailRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		BFB8FD6927D7F3830037D121 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8FD6A27D7F38D0037D121 /* ClientModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFB8FD6C27D7FAF30037D121 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8FD6D27D7FB1C0037D121 /* AccountDebitTableViewCell.swift */,
+				BFB8FD6E27D7FB1C0037D121 /* AccountDebitTableViewCell.xib */,
+				BFB8FD7527D802FB0037D121 /* DetailToPayTableViewCell.swift */,
+				BFB8FD7627D802FB0037D121 /* DetailToPayTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +175,10 @@
 			files = (
 				BFB8FD5F27D7F2340037D121 /* LaunchScreen.storyboard in Resources */,
 				BFB8FD5C27D7F2340037D121 /* Assets.xcassets in Resources */,
+				BFB8FD7027D7FB1C0037D121 /* AccountDebitTableViewCell.xib in Resources */,
 				BFB8FD5A27D7F2320037D121 /* Main.storyboard in Resources */,
+				BFB8FD7827D802FB0037D121 /* DetailToPayTableViewCell.xib in Resources */,
+				BFB8FD7427D7FF700037D121 /* PayAccountsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB8FD6F27D7FB1C0037D121 /* AccountDebitTableViewCell.swift in Sources */,
 				BFB8FD5727D7F2320037D121 /* ViewController.swift in Sources */,
+				BFB8FD7327D7FF700037D121 /* PayAccountsViewController.swift in Sources */,
+				BFB8FD6827D7F36F0037D121 /* ClientDetailRepository.swift in Sources */,
+				BFB8FD7727D802FB0037D121 /* DetailToPayTableViewCell.swift in Sources */,
+				BFB8FD6B27D7F38D0037D121 /* ClientModel.swift in Sources */,
 				BFB8FD5327D7F2320037D121 /* AppDelegate.swift in Sources */,
 				BFB8FD5527D7F2320037D121 /* SceneDelegate.swift in Sources */,
 			);
